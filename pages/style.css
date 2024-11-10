@@ -70,7 +70,6 @@ center {
 
 .banner {
   position: absolute;
-  background: url('bread.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   width: 95%;
@@ -81,93 +80,38 @@ center {
   animation-duration: 24s; /* 4s * 6 */
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+  opacity: 0;
+}
+
+.slide_0 {
+  background-image: url('bread.jpg');
   animation-delay: 0s;
   opacity: 1;
 }
 
-.cinnamonchip {
-  position: absolute;
-  background: url('spices.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 95%;
-  margin-left: 2.5%;
-  height: 0;
-  padding-top: 35.625%;
-  animation-name: slideshow;
-  animation-duration: 24s; /* 4s * 6 */
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+.slide_1 {
+  background-image: url('spices.jpg');
   animation-delay: 4s;
-  opacity: 0;
 }
 
-.bannerbread {
-  position: absolute;
-  background: url('jarmixes.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 95%;
-  margin-left: 2.5%;
-  height: 0;
-  padding-top: 35.625%;
-  animation-name: slideshow;
-  animation-duration: 24s; /* 4s * 6 */
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+.slide_2 {
+  background-image: url('jarmixes.jpg');
   animation-delay: 8s;
-  opacity: 0;
 }
 
-.bannerpbc {
-  position: absolute;
-  background: url('pbcookie.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 95%;
-  margin-left: 2.5%;
-  height: 0;
-  padding-top: 35.625%;
-  animation-name: slideshow;
-  animation-duration: 24s; /* 4s * 6 */
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+.slide_3 {
+  background-image: url('pbcookie.jpg');
   animation-delay: 12s;
-  opacity: 0;
 }
 
-.lemoncookie {
-  position: absolute;
-  background: url('sboxes.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 95%;
-  margin-left: 2.5%;
-  height: 0;
-  padding-top: 35.625%;
-  animation-name: slideshow;
-  animation-duration: 24s; /* 4s * 6 */
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+.slide_4 {
+  background-image: url('sboxes.jpg');
   animation-delay: 16s;
-  opacity: 0;
 }
 
-.lefsedilla {
-  position: absolute;
-  background: url('lefsedilla.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 95%;
-  margin-left: 2.5%;
-  height: 0;
-  padding-top: 35.625%;
-  animation-name: slideshow;
-  animation-duration: 24s; /* 4s * 6 */
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+.slide_5 {
+  background-image: url('lefsedilla.jpg');
   animation-delay: 20s;
-  opacity: 0;
 }
 
 .bannerbg {
