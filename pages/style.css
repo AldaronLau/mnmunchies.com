@@ -1,3 +1,9 @@
+body {
+  background: url('bg.png');
+  color: black;
+  font-size: 14pt;
+}
+
 h1 {
   position: absolute;
   margin-top: 0%;
@@ -39,14 +45,6 @@ center {
   vertical-align: middle;
   width: 49%;
   max-height: 100%;
-}
-
-body {
-  background: url('bg.png');
-}
-
-p {
-  font-size: 14pt;
 }
 
 .a {
@@ -230,7 +228,7 @@ div.sticky {
 }
 
 button {
-  margin:0px;
+  margin: 0px;
   font-size: 14pt;
   background: #FFFF;
   border-radius: 5px;
