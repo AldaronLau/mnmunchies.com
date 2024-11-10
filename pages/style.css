@@ -1,238 +1,237 @@
 h1 {
-	position: absolute;
-	margin-top: 0%;
-	top: 0%;
-	left: 0%;
-	color: #FFFFFF;
-	font-size: 40%;
-	width: 100%;
-	background-color: #00000000;
+  position: absolute;
+  margin-top: 0%;
+  top: 0%;
+  left: 0%;
+  color: #FFFFFF;
+  font-size: 40%;
+  width: 100%;
+  background-color: #00000000;
 }
 
 h2 {
-    margin-top: 40px;
-	font-size: 30pt;
-	text-align: center;
+  margin-top: 40px;
+  font-size: 30pt;
+  text-align: center;
 }
 
 h3 {
-	font-size: 21pt;
-	text-align: center;
-	font-weight: normal;
-	font-style: italic;
+  font-size: 21pt;
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
 }
 
 h4 {
-	font-size: 18pt;
-	text-align: center;
-	font-weight: normal;
-	font-style: italic;
+  font-size: 18pt;
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
 }
 
 img {
-	max-width: 49%;
-	max-height: 100%;
+  max-width: 49%;
+  max-height: 100%;
 }
 
 center {
-	display: inline-block;
-	vertical-align: middle;
-	width: 49%;
-	max-height: 100%;
-	
+  display: inline-block;
+  vertical-align: middle;
+  width: 49%;
+  max-height: 100%;
 }
 
 body {
-	background: url('bg.png');
+  background: url('bg.png');
 }
 
 p {
-	font-size: 14pt;
+  font-size: 14pt;
 }
 
 .a {
-	font-size: 10pt;
-	font-style: italic;
+  font-size: 10pt;
+  font-style: italic;
 }
 
 .b {
-	font-size: 12pt;
+  font-size: 12pt;
 }
 
 :root {
-	--main-frames: 6;
+  --main-frames: 6;
 }
 
 @keyframes slideshow {
-	0% { opacity: 0; } /* 0% / 5 */
-	2.4% { opacity: 1; } /* 12% / 5 */
-	17.6% { opacity: 1; } /* 88% / 5 */
-	20% { opacity: 0; } /* 100% / 5 */
-	100% { opacity: 0; }
+  0% { opacity: 0; } /* 0% / 5 */
+  2.4% { opacity: 1; } /* 12% / 5 */
+  17.6% { opacity: 1; } /* 88% / 5 */
+  20% { opacity: 0; } /* 100% / 5 */
+  100% { opacity: 0; }
 }
 
 .banner {
-	position: absolute;
-	background: url('bread.jpg');
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 95%;
-	margin-left: 2.5%;
-	height: 0;
-	padding-top: 35.625%;
-	animation-name: slideshow;
-	animation-duration: 24s; /* 4s * 6 */
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
-	animation-delay: 0s;
-	opacity: 1;
+  position: absolute;
+  background: url('bread.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 95%;
+  margin-left: 2.5%;
+  height: 0;
+  padding-top: 35.625%;
+  animation-name: slideshow;
+  animation-duration: 24s; /* 4s * 6 */
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  opacity: 1;
 }
 
 .cinnamonchip {
-	position: absolute;
-	background: url('spices.jpg');
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 95%;
-	margin-left: 2.5%;
-	height: 0;
-	padding-top: 35.625%;
-	animation-name: slideshow;
-	animation-duration: 24s; /* 4s * 6 */
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
-	animation-delay: 4s;
-	opacity: 0;
+  position: absolute;
+  background: url('spices.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 95%;
+  margin-left: 2.5%;
+  height: 0;
+  padding-top: 35.625%;
+  animation-name: slideshow;
+  animation-duration: 24s; /* 4s * 6 */
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 4s;
+  opacity: 0;
 }
 
 .bannerbread {
-	position: absolute;
-	background: url('jarmixes.jpg');
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 95%;
-	margin-left: 2.5%;
-	height: 0;
-	padding-top: 35.625%;
-	animation-name: slideshow;
-	animation-duration: 24s; /* 4s * 6 */
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
-	animation-delay: 8s;
-	opacity: 0;
+  position: absolute;
+  background: url('jarmixes.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 95%;
+  margin-left: 2.5%;
+  height: 0;
+  padding-top: 35.625%;
+  animation-name: slideshow;
+  animation-duration: 24s; /* 4s * 6 */
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 8s;
+  opacity: 0;
 }
 
 .bannerpbc {
-	position: absolute;
-	background: url('pbcookie.jpg');
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 95%;
-	margin-left: 2.5%;
-	height: 0;
-	padding-top: 35.625%;
-	animation-name: slideshow;
-	animation-duration: 24s; /* 4s * 6 */
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
-	animation-delay: 12s;
-	opacity: 0;
+  position: absolute;
+  background: url('pbcookie.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 95%;
+  margin-left: 2.5%;
+  height: 0;
+  padding-top: 35.625%;
+  animation-name: slideshow;
+  animation-duration: 24s; /* 4s * 6 */
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 12s;
+  opacity: 0;
 }
 
 .lemoncookie {
-	position: absolute;
-	background: url('sboxes.jpg');
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 95%;
-	margin-left: 2.5%;
-	height: 0;
-	padding-top: 35.625%;
-	animation-name: slideshow;
-	animation-duration: 24s; /* 4s * 6 */
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
-	animation-delay: 16s;
-	opacity: 0;
+  position: absolute;
+  background: url('sboxes.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 95%;
+  margin-left: 2.5%;
+  height: 0;
+  padding-top: 35.625%;
+  animation-name: slideshow;
+  animation-duration: 24s; /* 4s * 6 */
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 16s;
+  opacity: 0;
 }
 
 .lefsedilla {
-	position: absolute;
-	background: url('lefsedilla.jpg');
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 95%;
-	margin-left: 2.5%;
-	height: 0;
-	padding-top: 35.625%;
-	animation-name: slideshow;
-	animation-duration: 24s; /* 4s * 6 */
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
-	animation-delay: 20s;
-	opacity: 0;
+  position: absolute;
+  background: url('lefsedilla.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 95%;
+  margin-left: 2.5%;
+  height: 0;
+  padding-top: 35.625%;
+  animation-name: slideshow;
+  animation-duration: 24s; /* 4s * 6 */
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 20s;
+  opacity: 0;
 }
 
 .bannerbg {
-	position: absolute;
-	background: white;
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 95%;
-	margin-left: 2.5%;
-	height: 0;
-	padding-top: 35.625%;
+  position: absolute;
+  background: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 95%;
+  margin-left: 2.5%;
+  height: 0;
+  padding-top: 35.625%;
 }
 
 .inner {
-	margin-bottom: 3%;
-	margin-top: 3%;
-	margin-left: 4%;
-	margin-right: 4%;
-	padding-left: 4%;
-	padding-right: 4%;
-	padding-bottom: 4%;
-	padding-top: 1%;
-	background-image: url('inner.png');
+  margin-bottom: 3%;
+  margin-top: 3%;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 4%;
+  padding-top: 1%;
+  background-image: url('inner.png');
 }
 
 div.sticky {
-	margin-bottom: 3%;
-	margin-top: -50px;
-	margin-left: 6%;
-	margin-right: 6%;
-	padding-left: 1%;
-	padding-right: 1%;
-	padding-bottom: 5px;
-	padding-top: 5px;
-    border-radius: 5px;
-    background-color: #DDDD;
-    box-shadow: 0 0 16px 16px #DDDD;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
+  margin-bottom: 3%;
+  margin-top: -50px;
+  margin-left: 6%;
+  margin-right: 6%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-radius: 5px;
+  background-color: #DDDD;
+  box-shadow: 0 0 16px 16px #DDDD;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 } 
 
 .mnmunch {
-	padding-top: 35.625%;
-	position: relative;
+  padding-top: 35.625%;
+  position: relative;
 }
 
 .header {
-	width: 84%;
-	margin-left: 4%;
-	margin-right: 4%;
-	padding-left: 4%;
-	padding-right: 4%;
-	padding-bottom: 1%;
-	padding-top: 1%;
-	background-image: url('inner.png');
-	display: inline-block;
+  width: 84%;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  background-image: url('inner.png');
+  display: inline-block;
 }
 
 button {
-    margin:0px;
-    font-size: 14pt;
-    background: #FFFF;
-    border-radius: 5px;
+  margin:0px;
+  font-size: 14pt;
+  background: #FFFF;
+  border-radius: 5px;
 }
