@@ -35,6 +35,16 @@ h4 {
   font-style: italic;
 }
 
+details {
+  color: #004;
+}
+
+summary {
+  color: black;
+  font-size: x-large;
+  font-weight: bold;
+}
+
 img {
   max-width: 49%;
   max-height: 100%;
